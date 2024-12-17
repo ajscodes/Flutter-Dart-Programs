@@ -38,6 +38,7 @@ void main(){
   printCommonElements(list1, list2);
 }
 
+//function 
 void printCommonElements(list1,list2){
   List<dynamic> common = [];
 
