@@ -9,9 +9,9 @@ void main(){
 
   stdout.write("Enter Time(option): ");
   String? timeInput = stdin.readLineSync();
-  double time = (timeInput != null && timeInput.isNotEmpty) ? double.parse(timeInput) : 1;
+  double time = (timeInput != null && timeInput.isNotEmpty) ? double.parse(timeInput) : 1; //Make it optional
 
-
+  
   double interest = simpleInterest(principle: principle, rate: rate,time: time);
   print("Simple interest: $interest");
 }
